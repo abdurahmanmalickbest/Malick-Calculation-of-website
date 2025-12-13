@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical and Fertilizer Calculator</title><button><body>Click on the details to see how you can use this website(0992065009 abdurahman Malick Best or email me at AbdurahmanMalickBest@gmail.com</button> </body><button><details><font size="3px" color="pink">dear user please note that you are using Malick Best website of calculation.to start using enter quantities in the quantity feid.you can add numbers whenever you want eg if you sold 2 products then sell another and again another you can write 2+1+1 on the total all quantity and overall total amount will be displayed</button></font></details></sc
+  
+    <script >
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: maroon;
+            font-size: 30px;
+            color: blackish;
+        }
+        
+        .calculator {
+            width: 90px;
+            margin: 90px auto;
+            padding: 50px;
+            border: 8px solid #ddd;
+            border-radius: 42px;
+            box-shadow: 0 0 80px rgba(9, 8, 8, 8.9);
+            background-color: green;
+        }
+        
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 50px;
+            margin-bottom: 30px;
+            border: 18px solid #ccc;
+        }
+        
+        button {
+            background-color: green;
+            color: pink;
+            padding: 40px 40px;
+            border: none;
+            border-radius: 100px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: blue;
+        }
+        
+        #result {
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+      .calculator  { 
+      font-family: Times,;
+      text: green;
+      padding: 50px;
+      border: 39px;
+            
+        }
+    </style>
+</head>
+<body>
+ <table>
+            <tr>
+                <th>Item</th>
+                <th>Cost</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Mectin 100ml</td>
+                <td>5500</td>
+                <td><input type="text" id="mectin-100ml-quantity" placeholder="Malick Best website call him on 0992065009"></td>
+            </tr>
+            <tr>
+                <td>Mectin 250ml</td>
+                <td>11000</td>
+                <td><input type="text" id="mectin-250ml-quantity" placeholder="Malick Best website"></td>
+            </tr>
+            <tr>
+                <td>Aceta 100ml</td>
+                <td>5500</td>
+                <td><input type="text" id="aceta-100ml-quantity" placeholder="Malick Best Website"></td>
+            </tr>
+            <tr>
+                <td>Chlor 1L</td>
+                <td>36500</td>
+                <td><input type="text" id="chlor-1l-quantity" placeholder="Malick Best website"></td>
+            </tr>
+        </table>
+       
+        <tr>
+                <td>falmida 100ml</td>
+                <td>5500</td>
+                <td><input type="text" id="falmida-100ml-quantity" placeholder="Malick Best Website"></td>
+            </tr> 
+         <tr>
+                <td>procyper 200ml</td>
+                <td>11000</td>
+                <td><input type="text" id="procyper-200ml-quantity" placeholder="e.g. 1+2+8"></td>
+            </tr>
+            <tr>
+                <td>procyper 1 litre</td>
+                <td>40000</td>
+                <td><input type="text" id="procyper-1 litre-quantity" placeholder="e.g. 1+2+8"></td>
+            </tr> 
+            <tr>
+                <td>Lamdex 200ml</td>
+                <td>7000</td>
+                <td><input type="text" id="Lamdex-200ml-quantity" placeholder="e.g. 1+2+8"></td>
+            </tr>
+           <tr>
+                <td>Lamdex 1 litre</td>
+                <td>42000</td>
+                <td><input type="text" id="Lamdex-1 litre-quantity" placeholder="e.g. 1+2+8"></td>
+           <tr>
+                <td>Best 200ml</td>
+                <td>9000</td>
+                <td><input type="text" id="Best-200ml-quantity" placeholder="e.g. 1+2+8"></td>
+            </tr>
+           <tr>
+                <td>Best 1 litre</td>
+                <td>42000</td>
+                <td><input type="text" id="Best-1 litre-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+            <tr>
+                <td>mupathion 500ml</td>
+                <td>21000</td>
+                <td><input type="text" id="mupathion-1 litre-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+            <tr>
+                <td>mupathion 200ml</td>
+                <td>12000</td>
+                <td><input type="text" id="mupathion-200ml-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+             <tr>
+                <td>Supercron 100ml</td>
+                <td>6000</td>
+                <td><input type="text" id="supercron-100ml-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+      <tr>
+                <td>Supercron 200ml</td>
+                <td>10000</td>
+                <td><input type="text" id="supercron-200ml-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+              <tr>
+                <td>Supercron 1 litre</td>
+                <td>42000</td>
+                <td><input type="text" id="supercron-1 litre-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+              <tr>
+                <td>Dume 200ml</td>
+                <td>9000</td>
+                <td><input type="text" id="Dume-200ml-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+             <tr>
+                <td>Dume 1 litre</td>
+                <td>36500</td>
+                <td><input type="text" id="Dume-1 litre-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr> 
+            <tr>
+                <td>supra 200ml</td>
+                <td>8500</td>
+                <td><input type="text" id="supra-200ml-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+            <tr>
+                <td>supra 500ml</td>
+                <td>16000</td>
+                <td><input type="text" id="supra-500ml-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+             <tr>
+                <td>Delto 250ml</td>
+                <td>9000</td>
+                <td><input type="text" id="Delto-250ml-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+              <tr>
+                <td>Falcon 250g</td>
+                <td>6000</td>
+                <td><input type="text" id="Falcon-250ml-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+              <tr>
+                <td>manco 250g</td>
+                <td>9500</td>
+                <td><input type="text" id="manco-250g-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+             <tr>
+                <td>manco 1 kg</td>
+                <td>30000</td>
+                <td><input type="text" id="manco-1 kg-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr> 
+              <tr>
+                <td>Fighter 1 litre</td>
+                <td>33500</td>
+                <td><input type="text" id="Fighter-1 litre-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>     
+             <tr>
+                <td>soya pieces </td>
+                <td>34500</td>
+                <td><input type="text" id="soya pieces-250g-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+            <tr>
+                <td>Npk</td>
+                <td>160,000</td>
+                <td><input type="text" id="Npk-50kg-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr> 
+            <tr>
+                <td>Can 50kg bag</td>
+                <td>140,000</td>
+                <td><input type="text" id="Can 50kg-25kg-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>
+             <tr>
+                <td>Kynoplus 50kg bag</td>
+                <td>160,000</td>
+                <td><input type="text" id="kynoplus 50kg-50kg-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr>
+              <tr>
+                <td>Kynoplus 25kg bag</td>
+                <td>80,000</td>
+                <td><input type="text" id="kynoplus 25kg-25kg-quantity" placeholder="e.g. 1+2+8"></td>                             
+            </tr> 
+            <tr>
+                <td>S/A 50kg bag</td>
+                <td>94,000</td>
+                <td><input type="text" id="S/A 50kg-50kg-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr> 
+                  
+                   <tr>
+                <td>S/A kynoch 50kg bag</td>
+                <td>93,000</td>
+                <td><input type="text" id="S/A kynoch 50kg-50kg-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr> 
+                  
+            <tr>
+                <td>Granular Urea 50kg bag</td>
+                <td>160,0000</td>
+                <td><input type="text" id="Granular Urea 50kg-50kg-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr> 
+                 </tr> 
+            <tr>
+                <td>Calcium Nitrate 25kg bag</td>
+                <td>69,000</td>
+                <td><input type="text" id="Calcium Nitrate 25kg-25kg-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>  
+                   <tr>
+                <td>Calcibor 25kg bag</td>
+                <td>69,000</td>
+                <td><input type="text" id="Calcibor 25kg-25kg-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr> 
+                <tr>
+                <td>purola 250ml</td>
+                <td>2,330</td>
+                <td><input type="text" id="purola 250ml-250ml-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>   
+                <tr>
+                <td>purola 500ml</td>
+                <td>4,380</td>
+                <td><input type="text" id="purola 500ml-500ml-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>  
+                <tr>
+                <td>purola 1litre</td>
+                <td>8370</td>
+                <td><input type="text" id="purola 1litre-1litre-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>   
+                <tr>
+                <td>purola 2litre</td>
+                <td>16300</td>
+                <td><input type="text" id="purola 2litre-2litre-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>  
+                <tr>
+                <td>purola 5litre</td>
+                <td>41160</td>
+                <td><input type="text" id="purola 5litre-5litre-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>
+                 <tr>
+                <td>Hoe 2.5lb</td>
+                <td>15300</td>
+                <td><input type="text" id="Hoe 2.5lb-2.5-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr> 
+                <tr>
+                <td>Hoe 2lb </td>
+                <td>14000</td>
+                <td><input type="text" id="Hoe 2lb-2lb-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>
+                 </tr> 
+                <tr>
+                <td>panga knife </td>
+                <td>7400</td>
+                <td><input type="text" id="panga knife-250g-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>
+                      </tr> 
+                <tr>
+                <td>cabbage  </td>
+                <td>2500</td>
+                <td><input type="text" id="cabbage 25g-25g-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr> 
+                <tr>
+                <td>Raab 25g </td>
+                <td>2700</td>
+                <td><input type="text" id="Raab 25g-25g-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>
+                 <tr>
+                <td>Empty sacs 50kg </td>
+                <td>820</td>
+                <td><input type="text" id="empty sacs-50kg-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>   
+                 <tr>
+                <td>shovel </td>
+                <td>29500</td>
+                <td><input type="text" id="shovel-50kg-quantity" placeholder="e.g. 1+2+8"></td> 
+                </tr>    
+                  </tr>   
+                 <tr>
+                <td>blacksheet</td>
+                <td>18200</td>
+                <td><input type="text" id="blacksheet-50kg-" placeholder="e.g. 1+2+8"></td> 
+        
+               </tr> 
+                              
+                              <tr>
+                <td>slusher</td>
+                <td>7,350</td>
+                <td><input type="text" id="slusher-50kg-quantity" placeholder="e.g. 1+2+8"></td> 
+        
+               </tr> 
+               </tr> 
+                              
+                              <tr>
+                <td>pic black</td>
+                <td>19,600</td>
+                <td><input type="text" id="pick black-50kg-quantity" placeholder="e.g. 1+2+8"></td> 
+        
+               </tr>   
+                
+                                       
+        <button onclick="calculateTotal()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    
+    <script>
+        function calculateQuantity(quantity) {
+            try {
+                return eval(quantity.replace(/\+/g, '+').replace(/ /g, ''));
+            } catch (e) {
+                return 0;
+            }
+        }
+        
+        function calculateTotal() {
+            const items = [
+        { name: 'Mectin 100ml', cost: 5500, quantityId: 'mectin-100ml-quantity' },
+                { name: 'Mectin 250ml', cost: 11000, quantityId: 'mectin-250ml-quantity' },
+                { name: 'Aceta 100ml', cost: 5500, quantityId: 'aceta-100ml-quantity' },
+                { name: 'Chlor 1L', cost: 36500, quantityId: 'chlor-1l-quantity' },
+                { name: 'falmida 100ml', cost: 5000, quantityId: 'falmida-100ml-quantity' },
+                { name: 'procyper 200ml', cost: 11000, quantityId: 'procyper-200ml-quantity' },                                          
+                { name: 'procyper 1 litre', cost: 40000, quantityId: 'procyper-1 litre-quantity' },                
+                { name: 'Lamdex 200ml', cost: 7000, quantityId: 'Lamdex-200ml-quantity' },                 
+                { name: 'Lamdex 1 litre', cost: 42000, quantityId: 'Lamdex-1 litre-quantity' },                                  
+                { name: 'Best 200ml', cost: 9000, quantityId: 'Best-200ml-quantity' },                                
+                 { name: 'Best 1 litre', cost: 42000, quantityId: 'Best-1 litre-quantity' },
+                 { name: 'mupathion 1 litre', cost: 21000, quantityId: 'mupathion-1 litre-quantity' },
+                 { name: 'mupathion 200ml', cost: 12000, quantityId: 'mupathion-200ml-quantity' },                                                                                       
+                  { name: 'supercron 100ml', cost: 6000, quantityId: 'supercron-100ml-quantity' },
+                  { name: 'supercron 200ml', cost: 10000, quantityId: 'supercron-200ml-quantity' },
+                  { name: 'supercron 1 litre', cost: 42000, quantityId: 'supercron-1 litre-quantity' },
+                  { name: 'Dume 200ml', cost: 9000, quantityId: 'Dume-200ml-quantity' },
+                  { name: 'Dume 1 litre', cost: 36500, quantityId: 'Dume-1 litre-quantity' },
+                  { name: 'supra 200ml', cost: 8500, quantityId: 'supra-200ml-quantity' },
+                 { name: 'supra 500ml', cost: 16000, quantityId: 'supra-500ml-quantity' },
+                   { name: 'Delto 250ml', cost: 9000, quantityId: 'Delto-250ml-quantity' },
+                   { name: 'Falcon 250g', cost: 6000, quantityId: 'Falcon-250ml-quantity' }, 
+                    { name: 'manco 250g', cost: 9500, quantityId: 'manco-250g-quantity' },
+                    { name: 'manco 1 kg', cost: 30000, quantityId: 'manco-1 kg-quantity' },
+                    { name: 'Fighter 1 litre', cost: 36500, quantityId: 'Fighter-1 litre-quantity' },
+                     { name: 'soya pieces ', cost: 34500, quantityId: 'soya pieces-250g-quantity' },
+                      { name: 'Npk ', cost: 160000, quantityId: 'Npk-50kg-quantity' },
+                     { name: 'Can 50kg ', cost: 140000, quantityId: 'Can 50kg-25kg-quantity' }, 
+                   { name: 'kynoplus 50kg ', cost: 160000, quantityId: 'kynoplus 50kg-50kg-quantity' },
+                   { name: 'kynoplus 25kg ', cost: 80000, quantityId: 'kynoplus 25kg-25kg-quantity' },
+                   { name: 'S/A 50kg ', cost: 94000, quantityId: 'S/A 50kg-50kg-quantity' },
+                     { name: 'Granular Urea 50kg ', cost: 159000, quantityId: 'Granular Urea 50kg-50kg-quantity' },
+                    { name: 'Calcium Nitrate 25kg ', cost: 69000, quantityId: 'Calcium Nitrate 25kg-25kg-quantity' },
+                    { name: 'Calcibor 25kg ', cost: 69000, quantityId: 'Calcibor 25kg-25kg-quantity' },
+                    { name: 'purola 250ml ', cost: 2330, quantityId: 'purola 250ml-250ml-quantity' },
+                    { name: 'purola 500ml ', cost: 4380, quantityId: 'purola 500ml-500ml-quantity' },
+                    { name: 'purola 1litre ', cost: 8370, quantityId: 'purola 1litre-1litre-quantity' },
+                                        { name: 'purola 2litre ', cost: 16300, quantityId: 'purola 2litre-2litre-quantity' },
+                    { name: 'purola 5litre ', cost: 41160, quantityId: 'purola 5litre-5litre-quantity' },
+                    { name: 'Hoe 2.5lb ', cost: 15300, quantityId: 'Hoe 2.5lb-2.5-quantity' }, 
+                    { name: 'Hoe 2lb ', cost: 14000, quantityId: 'Hoe 2lb-2lb-quantity' },
+                 { name: 'panga knife ', cost: 7400, quantityId: 'panga knife-250g-quantity' },
+                 { name: 'cabbage 25g ', cost: 2500, quantityId: 'cabbage 25g-25g-quantity' },
+                 { name: 'Raab 25 ', cost: 2700, quantityId: 'Raab 25g-25g-quantity' },
+                 { name: 'empty sacs ', cost: 820, quantityId: 'empty sacs-50kg-quantity' },
+                  { name: 'shovel ', cost: 29500, quantityId: 'shovel-50kg-quantity' },
+                  { name: 'blacksheet ', cost: 18200, quantityId: 'blacksheet-50kg-quantity' },
+function saveToLocalStorage(items) {
+  const savedData = items.map(item => {
+    const input = document.getElementById(item.quantityId);
+    const qty = input ? calculateQuantity(input.value) : 0;
+    return qty > 0 ? { name: item.name, cost: item.cost, quantity: qty } : null;
+  }).filter(Boolean); // Keep non-empty entries
+  localStorage.setItem('chemicalCalc', JSON.stringify(savedData));
+  alert("Data saved to browser! 😎");
+}
+                                                                                                           
+            ];
+            
+                
+            let resultHtml = '';
+let totalCost = 0;
+let totalQuantity = 0;
+
+try {
+    for (const item of items) {
+        const quantityInput = document.getElementById(item.quantityId);
+        if (!quantityInput) {
+            console.error(`Element with id ${item.quantityId} not found`);
+            continue;
+        }
+        const quantity = calculateQuantity(quantityInput.value);
+        console.log(`Quantity for ${item.name}: ${quantity}`);
+        if (quantity > 0) {
+            const itemTotal = item.cost * quantity;
+            console.log(`Item total for ${item.name}: ${itemTotal}`);
+            totalCost += itemTotal;
+            totalQuantity += quantity;
+            resultHtml += `${item.name}: Quantity = ${quantity}, Total = ${itemTotal} <br>`;
+        }
+    }
+    resultHtml += `Total Overall Amount: ${totalCost} <br>`;
+    resultHtml += `Total Overall Quantity: ${totalQuantity}`;
+    console.log(`Total cost: ${totalCost}, Total quantity: ${totalQuantity}`);
+    const resultElement = document.getElementById('result');
+    if (resultElement) {
+        resultElement.innerHTML = resultHtml;
+    } else {
+        console.error("Element with id 'result' not found");
+    }
+} catch (error) {
+    console.error("Error calculating totals:", error);
+}            
+        }
+    </script>
+       <button onclick="clearAll()">Clear All</button>
+   <script>
+     function clearAll() {
+       document.querySelectorAll('input[type="text"]').forEach(el => el.value = '');
+       document.getElementById('result').innerHTML = '';
+     }
+   </script>
+      
+   <script>
+     function deleteField(id) {
+       document.getElementById(id).value = '';
+       calculateTotal(); // refresh totals
+     }
+     
+   </script>
+   
+    <button onclick="shareViaWhatsApp()">Send Results via WhatsApp</button>
+<script>
+function shareViaWhatsApp() {
+  const result = document.getElementById('result').innerText;
+  if (!result.trim()) {
+    alert("Calculate something first! 😄");
+    return;
+  }
+  const phone = prompt("Enter WhatsApp number (e.g., 265991234567):");
+  if (phone) {
+    const cleanPhone = phone.replace(/[^0-9]/g, ''); // remove spaces/+ etc.
+    const url = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(result)}`;
+    window.open(url, '_blank');
+  }
+}
+</script>
+
+<button onclick="shareViaEmail()">Send Results via Email</button>
+<script>
+function shareViaEmail() {
+  const result = document.getElementById('result').innerText;
+  if (!result.trim()) {
+    alert("Calculate something first! 😄");
+    return;
+  }
+  const email = prompt("Enter your email address:");
+  if (email) {
+    const subject = "Chemical Calculator Results";
+    const body = encodeURIComponent(result);
+    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+  }
+}
+</script>
+
+<button onclick="saveToLocalStorage()">Save Data</button>
+<script>
+function saveToLocalStorage() {
+  const items = [ /* your full item list here */ ];
+  const savedData = items.map(item => {
+    const input = document.getElementById(item.quantityId);
+    const qty = input ? calculateQuantity(input.value) : 0;
+    return qty > 0 ? { name: item.name, cost: item.cost, quantity: qty } : null;
+  }).filter(Boolean); // Keep non-empty entries
+  localStorage.setItem('chemicalCalc', JSON.stringify(savedData));
+  alert("Data saved to browser! 😎");
+}
+</script>
+
+   
+   
+ <marquee><button >Malick Best Mlakatuli of yours </button>
+</html>
