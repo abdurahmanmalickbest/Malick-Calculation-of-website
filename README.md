@@ -1,1 +1,1 @@
-this is Program made to reduce errors in business transactions. it can be used by farmers companies and within illiterate.communicate with me to modify the program and put process and items of your choice. you need just to add what u have sold interms of 1 2 3 the total mathematics is done automatically. it has send button to WhatsApp and email for easy update of to employees instead wasting expenses for physical stock
+
